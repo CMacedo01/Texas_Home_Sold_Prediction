@@ -1,3 +1,18 @@
-# Texas_Home_Sold_Prediction
-Given a county in Texas and a median price for a home, the model will return the estimated number of homes to be sold in that county at that price over the next year. 
-The data being used is from Zillow and covers real estate trends in each Texas county from 2020-2024. To predict the total homes sold over the next year, I use various independent varables including the median sale price per square foot of homes sold during a given time period per county, the total active listings per county per time period, the total inventory in a county year over year, amongst some others. The Linear Regresssion model will take as input from the user a county name and a median price and return the total number of homes predicted to be sold in the next year.  
+# Texas Homes Sold Prediction
+This project aims to estimate the number of houses sold in a one year period for a given Texas county. 
+
+Dataset Information: 
+The data set comes from public real estate data available from Zillow and was made available to me by officers of the Aggie Data Science Club (ADSC). The .csv file contained over 30 attributes that summarized various characterstics of Texas county real estate data under a certain region and time period, such as the total number of homes sold, the median sale price , and the total new listings.
+
+Attributes: 
+region name: The name of the county 
+period end: The final date that data was collected
+total homes sold: The total number of homes sold throuhgout the period
+median sale price: The final median sale price of homes sold
+median sale ppsf: The final median sale price per square foot of homes sold
+total active listings: The total homes available for sale
+inventory yoy: The amount of homes available to be sold in the given year compared to the previous year
+
+Accuracy Score using Linear Regression: 
+0.9237474674513222
+
